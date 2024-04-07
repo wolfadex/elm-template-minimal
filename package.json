@@ -10,11 +10,15 @@
   },
   "author": "Wolfgang Schuster",
   "devDependencies": {
-    "@ryannhg/css-in-elm": "^1.0.0",
-    "elm": "^0.19.1-6",
-    "elm-format": "^0.8.7",
-    "elm-review": "^2.10.3",
-    "elm-watch": "^1.2.0-beta.5",
-    "run-pty": "^4.1.0"
+    "@lydell/elm-json": "^0.2.13-1",
+    "@ryannhg/css-in-elm": "1.0.0",
+    "elm": "0.19.1-6",
+    "elm-format": "0.8.7",
+    "elm-review": "2.11.1",
+    "elm-watch": "2.0.0-beta.2",
+    "run-pty": "5.0.0"
+  },
+  "volta": {
+    "node": "20.12.1"
   }
 }
