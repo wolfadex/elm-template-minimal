@@ -14,8 +14,8 @@
         "@ryannhg/css-in-elm": "1.0.0",
         "elm": "0.19.1-6",
         "elm-format": "0.8.7",
-        "elm-review": "2.12.0",
-        "elm-watch": "2.0.0-beta.3",
+        "elm-review": "2.13.2",
+        "elm-watch": "2.0.0-beta.6",
         "run-pty": "5.0.0"
     }
 }
