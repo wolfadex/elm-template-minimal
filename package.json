@@ -12,8 +12,5 @@
   "devDependencies": {
     "@lydell/elm-json": "^0.2.13-1",
     "@ryannhg/css-in-elm": "1.0.0"
-  },
-  "volta": {
-    "node": "20.12.1"
   }
 }
