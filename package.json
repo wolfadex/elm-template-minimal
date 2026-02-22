@@ -2,15 +2,5 @@
   "name": "elm-template-minimal",
   "version": "0.1.0",
   "description": "A fun project built with Elm.",
-  "scripts": {
-    "dev": "run-pty run-pty.json",
-    "dev:elm": "elm-watch hot",
-    "dev:css": "css-in-elm watch public/styles.css src/Css.elm",
-    "dev:review": "elm-review --watch --fix"
-  },
-  "author": "Wolfgang Schuster",
-  "devDependencies": {
-    "@lydell/elm-json": "^0.2.13-1",
-    "@ryannhg/css-in-elm": "1.0.0"
-  }
+  "author": "Wolfgang Schuster"
 }
