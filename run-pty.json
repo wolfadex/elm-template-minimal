@@ -1,11 +1,11 @@
 [
   {
-    "command": ["npm", "run", "dev:elm"]
+    "command": ["just", "dev-elm"]
   },
   {
-    "command": ["npm", "run", "dev:css"]
+    "command": ["just", "dev-review"]
   },
   {
-    "command": ["npm", "run", "dev:review"]
+    "command": ["just", "dev-css"]
   }
 ]
