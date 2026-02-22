@@ -17,6 +17,5 @@ A basic template for tiny Elm projects.
 Clone this template, then run
 ```sh
 mise install
-npm install
 just dev
 ```
