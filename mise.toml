@@ -4,10 +4,34 @@ _.path = ['{{config_root}}/node_modules/.bin']
 [tools]
 elm = "0.19"
 node = "24"
-just = "1"
 
 "npm:@ryannhg/css-in-elm" = "1.0.0"
 "npm:elm-format" = "0.8"
 "npm:elm-review" = "2.13"
 "npm:elm-watch" = "2.0.0-beta.12"
 "npm:run-pty" = "5.0.0"
+
+
+[tasks.dev]
+run = "run-pty run-pty.json"
+
+[tasks.dev-elm]
+run = "elm-watch hot"
+
+[tasks.dev-css]
+run = "css-in-elm watch public/styles.css src/Css.elm"
+
+[tasks.dev-review]
+run = "elm-review --watch --fix"
+
+[tasks.build]
+run = "build-review && build-css && build-elm"
+
+[tasks.build-review]
+run = "elm-review"
+
+[tasks.build-css]
+run = "css-in-elm build public/styles.css src/Css.elm"
+
+[tasks.build-elm]
+run = "elm-watch --optimize"
