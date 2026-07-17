@@ -2,13 +2,14 @@
 _.path = ['{{config_root}}/node_modules/.bin']
 
 [tools]
-elm = "0.19"
-node = "24"
+"asdf:asdf-community/asdf-elm" = "0.19.2"
+node = "26"
 
 "npm:@ryannhg/css-in-elm" = "1.0.0"
 "npm:elm-format" = "0.8"
+"npm:@lydell/elm-json" = "0.2.13-1"
 "npm:elm-review" = "2.13"
-"npm:elm-watch" = "2.0.0-beta.12"
+"npm:elm-watch" = "2.0.0-beta.14"
 "npm:run-pty" = "5.0.0"
 
 
